@@ -1,0 +1,509 @@
+body,html{
+  overflow-x: hidden;
+}
+
+.icons{
+    display: flex;
+    margin: 0px 55px;
+    gap: 25px;
+}
+.icons li{
+    list-style: none;
+   
+    /* margin: 0px 35px; */
+}
+.icons li img{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px 8px;
+}
+.form-control{
+border-radius: 20px;
+/* background-color: rgb(26, 26, 172); */
+}
+
+.navbar-nav{
+    gap: 50px;
+    margin-left: 35px;
+}
+.navbar-brand img{
+    margin-left: 30px;
+}
+.navbar{
+    /* background-color: rgb(23, 23, 244); */
+    background-color: #0f3cc9;
+    color: white;
+    height: 70px;
+}
+.nav-item a{
+    color: white;
+    font-weight: 650;
+
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: 75vh;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    
+   
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+   
+  }
+  .first{
+    position: absolute;
+    color: white;
+    max-width: 500px;
+    font-size: 69px;
+    font-weight: 650;
+    line-height: 73px;
+    margin-left: -575px;
+    margin-top: -100px;
+    z-index: 999;
+    /* background-color: antiquewhite; */
+  }
+  
+  .swiper-slide h5{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -355px;
+    color: #d2cbcb;
+    font-size: 21px;
+    font-weight: 700;
+    z-index: 999;
+  }
+  .second{
+    position: absolute;
+    color: white;
+    max-width: 500px;
+    font-size: 69px;
+    font-weight: 650;
+    line-height: 73px;
+    margin-left: -575px;
+    margin-top: -100px;
+    z-index: 999;
+  }
+  .third{
+    position: absolute;
+    color: white;
+    max-width: 540px;
+    font-size: 69px;
+    font-weight: 650;
+    line-height: 73px;
+    margin-left: -575px;
+    margin-top: -100px;
+    z-index: 999;
+  }
+   button{
+    position: absolute;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    margin-top: 250px;
+    margin-left: -916px;
+    z-index: 999;
+  }
+  button:hover{
+    background-color: rgb(80, 80, 247);
+  }
+  #btn2{
+    position: absolute;
+    z-index: 999;
+    color: white;
+    background: transparent;
+    border: 1.3px solid rgb(134, 134, 134);
+    margin-left: -585px;
+  }
+  #btn2:hover{
+    border: 1.3px solid white;
+  }
+ .dabba{
+    display: flex;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+
+ }
+ .dabba .box3{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 120px;
+    /* background-color: aquamarine; */
+    margin: 30px 35px;
+ }
+ .box3:hover{
+    background-color: #d2cbcb;
+    border-radius: 15px;
+ }
+ .box3 img{
+    display: block;
+    margin: auto;
+ }
+ .box3 h5{
+    margin: auto;
+ }
+  .line{
+    /* background-color: brown; */
+    text-align: center;
+  }
+  .line h1{
+    font-size: 66px;
+    font-weight: 700;
+  }
+  .line p{
+    font-size: 27px;
+  }
+  .wifi{
+    /* background-color: #d2cbcb; */
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+  }
+  .wifi img{
+    width: 100vw;
+    height: 150vh;
+  }
+  .buy{
+    width: 80%;
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .buy h2{
+    font-size: 42px;
+    font-weight: 650;
+  }
+  .buy p{
+    font-size: 23px;
+  }
+  .buynow{
+    background-color: blue;
+    color: white;
+    display: block;
+    margin: auto;
+  }
+  .flexboxes{
+    display: flex;
+    /* background-color: aquamarine; */
+    /* flex: 1; */
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .flexboxes .jiosaavan{
+background-color:blue;
+color: white;
+margin: 34px 15px;
+height: 550px;
+width: 30vw;
+border-radius: 30px;
+  }
+  .jiosaavan img{
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .flexboxes .jiohealth{
+    background-color:blue;
+    color: white;
+    margin: 34px 15px;
+    height: 550px;
+    width: 30vw;
+    border-radius: 30px;
+  }
+  .jiosaavan p{
+    /* background-color: grey; */
+    background-color:  #c8cdf1;
+    color: blue;
+    display: inline;
+    padding: 3px 9px;
+    line-height: 4;
+    border-radius: 7px;
+    margin-left: 20px;
+    font-weight: 500;
+    /* padding: 15px 15px; */
+  }
+  .jiosaavan h2{
+    font-weight: 700;
+    padding: 0px 15px;
+    margin-left: 10px;
+  }
+  .jiosaavan h5{
+    margin-top: 0px;
+    margin-bottom: 19px;
+    padding: 15px 15px;
+    margin-left: 15px;
+    color: #bfb8b8;
+  }
+  .jiohealth img{
+    width: 100%;
+    border-radius: 18px;
+  }
+  .jiohealth p{
+    background-color:  #c8cdf1;
+    color: blue;
+    display: inline;
+    padding: 3px 9px;
+    line-height: 4;
+    border-radius: 7px;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .jiohealth h2{
+    font-weight: 700;
+    font-weight: 700;
+    padding: 0px 15px;
+    margin-left: 10px;
+  }
+  .jiohealth h5{
+    margin-top: 16px;
+    margin-bottom: 19px;
+    margin-top: 0px;
+    margin-bottom: 19px;
+    padding: 15px 15px;
+    margin-left: 15px;
+    color: #bfb8b8;
+
+  }
+.flexboxes .store{
+  background-color:blue;
+color: white;
+margin: 34px 15px;
+height: 550px;
+width: 30vw;
+border-radius: 30px;
+}
+.store img{
+  width: 100%;
+  border-radius: 18px;
+}
+.store p{
+  background-color:  #c8cdf1;
+  color: blue;
+  display: inline;
+  padding: 3px 9px;
+  line-height: 4;
+  border-radius: 7px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.store h2{
+  font-weight: 700;
+  font-weight: 700;
+  padding: 0px 15px;
+  margin-left: 10px;
+}
+.store h5{
+  margin-top: 16px;
+  margin-bottom: 19px;
+  margin-top: 0px;
+    margin-bottom: 19px;
+    padding: 15px 15px;
+    margin-left: 15px;
+    color: #bfb8b8;
+}
+.jiosaavan a,.jiohealth a,.store a{
+  text-decoration: none;
+  background-color:  #c8cdf1;
+  color: rgb(2, 2, 104);
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 0px 24px;
+  font-weight: 700;
+  /* padding: 15px 15px; */
+}
+
+.enrich{
+  width: 100%;
+  text-align: center;
+}
+.enrich h1{
+  font-size: 60px;
+  font-weight: 800;
+}
+.enrich h5{
+  font-size:25px ;
+  opacity: 0.8;
+}
+.viedo{
+  width: 100%;
+  height: 370px;
+  background-color: aquamarine;
+  position: relative;
+  
+}
+.viedo video{
+  
+  width: 100vw;
+  height: 100%;
+  object-fit:cover;
+  object-position:center;
+  position: relative;
+  opacity: 0.8;
+}
+.content{
+  position: absolute;
+  z-index: 999;
+  position: absolute;
+  color: white;
+  max-width: 500px;
+  /* font-size: 69px; */
+  font-weight: 650;
+  line-height: 53px;
+  margin-left: 75px;
+  margin-top: -320px;
+  z-index: 999;
+}
+.ajio{
+  background-color: grey;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+.content h2{
+  font-size: 40px;
+  font-weight: 800;
+}
+.fashion{
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 20px;
+}
+.contain{
+  width: 100%;
+  height:600px;
+  background-color:rgb(228, 228, 252);
+  padding: 60px 100px;
+}
+.logoo{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.logoo h4{
+  font-weight: 800;
+}
+.contain h1{
+  text-align: center;
+    margin: 15px;
+    font-size: 55px;
+    font-weight: 800;
+}
+.contain h3{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 0.8;
+
+}
+.images{
+  display: block;
+    margin: auto;
+    border-radius: 20px;
+    width: 270px;
+}
+.contact{
+  width: 100%;
+  height: 330px;
+  background-color: rgb(36, 36, 252);
+  color: white;
+
+}
+.contact h1{
+  text-align: center;
+    padding-top: 40px;
+    font-size: 70px;
+    font-weight: 800;
+}
+.contact h4{
+  text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+.btnss{
+  display: flex;
+  gap: 30px;
+    margin: 38px;
+    align-items: center;
+    justify-content: center;
+}
+.btnss a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+  border: 1.3px solid rgb(137, 136, 136);
+    padding: 7px 23px;
+    border-radius: 30px
+}
+.btnss a:hover{
+  border: 1.3px solid white;
+}
+.btnss h5{
+  padding-left: 10px;
+    padding-top: 7px;
+    opacity: 0.8;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+}
+.footer p{
+  margin-top:6px;
+}
+.copy{
+  display: flex;
+  /* background-color: brown; */
+  margin-left: 95px;
+}
+.copy p a span{
+  color: blue;
+  font-weight: 800;
+}
